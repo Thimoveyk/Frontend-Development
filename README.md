@@ -43,8 +43,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/adidas_home_page.png" width="375px" alt="home page van Adidas">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Adidas confirmed page
+  <img src="readme-images/adidas_confirmed_page.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -59,15 +59,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader ging netjes alle koppelingen af van de website.
+  maar toen de screenreader bij het de koppeling naar je account kwam, 
+  zei hij 'afbeelding' in plaats van account.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit zou opgelost kunnen worden door of het icoontje te vervangen voor tekst
+  of door tekst achter het icoontje toe te voegen.
+
+  Verder was alles duidelijk te herkennen met de screenreader.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Alle koppelingen kunnen geselecteerd worden met de Tab knop, dit kan niet gedaan 
+  worden met de pijltjes. Alle ellementen worden hierbij in een logische volgorde
+  geselecteerd, namelijk van boven naar beneden en van links naar rechts.
+  Verder kun je door op spatie te klikken scrollen over de website. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Voor alle elementen op de icoontjes na zijn er hover states uitgewerkt.
+  Er zin voor de elementen geen active states uitgewerkt.
+  Wel is er in de zoekbalk een focus state uitgewerkt.
 
 
   #### Motoriek (shocks, elastiekjes)
