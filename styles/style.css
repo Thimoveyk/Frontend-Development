@@ -52,6 +52,7 @@ nav img {
 	width: 100%;
 	transition: height 0.9s ease-in-out;
 	position: absolute;
+	z-index: 1000;
 }
 
 .topnav img {
@@ -75,12 +76,50 @@ nav img {
 	display: flex;
 }
 
-.topnav a.icon {
-	position: absolute;
-	right: 0;
-	top: 0;
+.topnav > div > div {
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	width: 100%;
+	
 }
 
+.topnav > div > div > div {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.topnav > div > div > div > i {
+	margin-top: 1em;
+}
+
+.topnav a.icon {
+	position: absolute;
+	right: 1em;
+	top: .3em;
+}
+
+.topnav .menuSubsectie {
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'adineue';
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.divOnder img {
+	width: 18px;
+	margin: 0 0 0 3em;
+}
+.topnav .divOnder {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	align-self: baseline;
+	font-size: 10px;
+	border-top: none;
+}
 
 
 section {
