@@ -25,7 +25,7 @@ body {
 nav {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background-color: rgba(255, 255, 255, 0.856);
+	background-color: white;
 }
 
 nav>a {
@@ -47,6 +47,42 @@ nav img {
 	margin: auto;
 }
 
+.topnav {
+	background-color: #ffffff;
+	width: 100%;
+	transition: height 0.9s ease-in-out;
+	position: absolute;
+}
+
+.topnav img {
+	display: flex;
+	justify-self: center;
+}
+
+.topnav #menuItems {
+	display: none;
+	margin: 0;
+}
+
+
+.topnav a {
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1em;
+	display: flex;
+}
+
+.topnav a.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
 section {
 	background-color: white;
 }
@@ -66,7 +102,7 @@ section {
 	margin: 0 0 6.5em .5em;
 }
 
-.sectie_1 > div {
+.sectie_1>div {
 	position: absolute;
 	color: white;
 	margin: 0 0 1em .8em;
@@ -100,7 +136,7 @@ section {
 	align-items: end;
 }
 
-.sectie_2 h3 {
+.sectie_2 h2 {
 	width: 5em;
 	position: absolute;
 	margin: 0 0 5em .25em;
@@ -112,9 +148,9 @@ section {
 	letter-spacing: 1px;
 }
 
-.sectie_2 > div {
+.sectie_2>div {
 	position: absolute;
-	margin-left: .8em;
+	margin: 0 0 1em .8em;
 	color: white;
 	font-size: .95em;
 	font-family: 'adineue';
@@ -155,7 +191,7 @@ section {
 }
 
 
-h4 {
+h2 {
 
 	width: 6em;
 	margin: 0 0 0 .25em;
@@ -193,4 +229,58 @@ h4 {
 	.carousel img {
 		width: calc(100% / 2);
 	}
+}
+
+.sectie_4 {
+	display: flex;
+	flex-direction: column;
+	padding: 1em 1em 4em 1em;
+}
+
+.sectie_4 h2 {
+	font-size: 1.5em;
+	margin: .5em 0 .5em 0;
+	width: 100%;
+}
+
+.sectie_4 div {
+	display: flex;
+	flex-direction: column;
+}
+
+.sectie_4 div a {
+	width: 100%;
+	padding-top: .5em;
+	color: black;
+	font-size: 2em;
+	font-family: '';
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: lowercase;
+	border-bottom: 1px solid black;
+}
+
+.sectie_5 {
+	background-color: #f5f5e5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 3em;
+}
+
+.sectie_5 div {
+	width: 90%;
+}
+
+.sectie_5 h2 {
+	width: 80%;
+	padding: 1em 0 0 0;
+	margin: 0 0 0 0;
+	
+}
+
+.sectie_5 div div {
+	font-size: 1em;
+	padding: 1em 0 0 0;
+	width: 100%;
 }
