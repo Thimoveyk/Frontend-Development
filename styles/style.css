@@ -4,7 +4,9 @@
 	src: url(/assets/adineuePROKZLight/adineue\ PRO\ KZ\ Light.ttf);
 }
 
-
+html {
+	scroll-behavior: smooth;
+}
 
 :root {
 	/* startje */
@@ -76,19 +78,19 @@ nav img {
 	display: flex;
 }
 
-.topnav > div > div {
+.topnav>div>div {
 	border-top: 1px solid rgba(0, 0, 0, 0.5);
 	width: 100%;
-	
+
 }
 
-.topnav > div > div > div {
+.topnav>div>div>div {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 }
 
-.topnav > div > div > div > i {
+.topnav>div>div>div>i {
 	margin-top: 1em;
 }
 
@@ -112,6 +114,7 @@ nav img {
 	width: 18px;
 	margin: 0 0 0 3em;
 }
+
 .topnav .divOnder {
 	display: flex;
 	align-items: center;
@@ -315,11 +318,110 @@ h2 {
 	width: 80%;
 	padding: 1em 0 0 0;
 	margin: 0 0 0 0;
-	
+
 }
 
 .sectie_5 div div {
 	font-size: 1em;
 	padding: 1em 0 0 0;
 	width: 100%;
+}
+
+.terug_naar_boven div {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding: 1em;
+}
+
+.terug_naar_boven a {
+	color: #111;
+	text-decoration: none;
+	font-family: 'adineue';
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .9em;
+	padding-left: 1em;
+}
+
+
+.sectie_6 {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+
+.sectie_6 a {
+	font-family: 'adineue';
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+}
+
+.sectie_7 div {
+	background-color: #EDE734;
+	padding-bottom: 1.5em;
+}
+
+.sectie_7 h3 {
+	margin: 0;
+	padding: .5em 0 .5em 1em;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.sectie_7 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3.5em;
+	width: 14em;
+	padding: 0 1em;
+	margin: 0 0 0 2em;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "adineue";
+	letter-spacing: 4px;
+	border: none;
+}
+
+.sectie_8 div {
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: .5em 0;
+	border-bottom: grey solid 1px;
+}
+
+.sectie_8 a {
+	text-decoration: none;
+	font-size: .8em;
+	color: white;
+	margin: auto;
+	padding: .6em;
+}
+
+.sectie_9 div {
+	background-color: #363738;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 1em 0;
+}
+
+.sectie_9 a {
+	text-decoration: none;
+	font-size: .8em;
+	color: #c8cbcc;
+	margin: auto;
+	padding: .6em;
 }
