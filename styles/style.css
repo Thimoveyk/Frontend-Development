@@ -47,6 +47,7 @@ nav div a {
 nav img {
 	height: 50px;
 	margin: auto;
+	z-index: 1001;
 }
 
 .topnav {
@@ -55,16 +56,11 @@ nav img {
 	position: absolute;
 	z-index: 1000;
 	transform: translateX(-100%);
-	transition: 1s
+	transition: .5s ease-in;
 }
 .topnav.show {
 	transform: none;
-	transition: 1s;
-}
-
-.topnav img {
-	display: flex;
-	justify-self: center;
+	transition: .5s ease-out;
 }
 
 .topnav #menuItems {
@@ -256,18 +252,16 @@ h2 {
 
 .wrapper .carousel {
 	cursor: pointer;
-	overflow: hidden;
+	overflow-x: scroll;
 	white-space: nowrap;
 	scroll-behavior: smooth;
+	scroll-snap-align:center;
 }
 
-.carousel.dragging {
-	cursor: grab;
-	scroll-behavior: auto;
-}
 
 .carousel img {
 	margin-left: 14px;
+	
 }
 
 
