@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'adineue';
-	src: url(/assets/adineuePRO/adineue\ PRO.ttf);
-	src: url(/assets/adineuePROKZLight/adineue\ PRO\ KZ\ Light.ttf);
+	src: url(assets/adineuePRO/adineue\ PRO.ttf);
+	src: url(assets/adineuePROKZLight/adineue\ PRO\ KZ\ Light.ttf);
 }
 
 html {
@@ -52,9 +52,14 @@ nav img {
 .topnav {
 	background-color: #ffffff;
 	width: 100%;
-	transition: height 0.9s ease-in-out;
 	position: absolute;
 	z-index: 1000;
+	transform: translateX(-100%);
+	transition: 1s
+}
+.topnav.show {
+	transform: none;
+	transition: 1s;
 }
 
 .topnav img {
@@ -63,7 +68,6 @@ nav img {
 }
 
 .topnav #menuItems {
-	display: none;
 	margin: 0;
 }
 
@@ -94,7 +98,7 @@ nav img {
 	margin-top: 1em;
 }
 
-.topnav a.icon {
+.topnav > a {
 	position: absolute;
 	right: 1em;
 	top: .3em;

@@ -57,16 +57,16 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
 
 
-function myFunction() {
-    var x = document.getElementById("menuItems");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+const nav = document.querySelector('.topnav');
+const hamburger = document.querySelector('.fa-bars');
+const close = document.querySelector('.fa-x')
 
-// function show() {
-//     document.querySelector('.hamburger').classList.toggle('open')
-//     document.querySelector('.navigation').classList.toggle('active')
-// }
+function openMenu() {
+    nav.classList.add('show');
+}
+function closeMenu() {
+    nav.classList.remove('show');
+}
+
+hamburger.addEventListener('click', openMenu);
+close.addEventListener('click', closeMenu);
